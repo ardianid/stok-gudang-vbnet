@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C876DFE5-65A3-4ECD-A05A-6C8D5F78BB87}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Gudang.My.MyApplication</StartupObject>
+    <RootNamespace>Gudang</RootNamespace>
+    <AssemblyName>Gudang</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Gudang.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Gudang.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>Gudang.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Gudang.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>Gudang.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Gudang.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1418398968_62577.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>740461F5C070F1D140B414734F557C3A7E3A770C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Gudang_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.BonusSkins.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v14.2.Core, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Xpo.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.ExpressApp.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.ExpressApp.Win.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Persistent.Base.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v14.2.Core, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v14.2.Core, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v14.2.Core, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v14.2.Core, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v14.2.Wizard, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v14.2.Core, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v14.2.UI, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v14.2.Extensions, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v14.2.Core, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v14.2.UI, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\ClassMy.vb" />
+    <Compile Include="Dataset\ds_inout.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_inout.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\ds_jmlin_orout.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_jmlin_orout.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\ds_opname.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_opname.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Preview\fpr_buktiopname.Designer.vb">
+      <DependentUpon>fpr_buktiopname.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Preview\fpr_buktiopname.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preview\fpr_inoutbarang.Designer.vb">
+      <DependentUpon>fpr_inoutbarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Preview\fpr_inoutbarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preview\fpr_inoutbarang2.Designer.vb">
+      <DependentUpon>fpr_inoutbarang2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Preview\fpr_inoutbarang2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preview\fpr_jmin.Designer.vb">
+      <DependentUpon>fpr_jmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Preview\fpr_jmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preview\fpr_jmin2.Designer.vb">
+      <DependentUpon>fpr_jmin2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Preview\fpr_jmin2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\cr_hbarang_kendaraan1.vb">
+      <DependentUpon>cr_hbarang_kendaraan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Dataset\dsstok.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsstok.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\ds_hbarang_kendaraan1.Designer.vb">
+      <DependentUpon>ds_hbarang_kendaraan.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Master\fbarang.Designer.vb">
+      <DependentUpon>fbarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\fbarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\fbarang2.Designer.vb">
+      <DependentUpon>fbarang2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\fbarang2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\rjmlin.Designer.vb">
+      <DependentUpon>rjmlin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rjmlin.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_buktiopname.Designer.vb">
+      <DependentUpon>r_buktiopname.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\r_buktiopname.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\r_inout.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>r_inout.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Transaksi\finput.Designer.vb">
+      <DependentUpon>finput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\finput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaksi\finput2.Designer.vb">
+      <DependentUpon>finput2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\finput2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaksi\finput3.Designer.vb">
+      <DependentUpon>finput3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\finput3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\fkelompok.Designer.vb">
+      <DependentUpon>fkelompok.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\fkelompok.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\fkelompok2.Designer.vb">
+      <DependentUpon>fkelompok2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\fkelompok2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmenu.Designer.vb">
+      <DependentUpon>fmenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fmenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmenu2.Designer.vb">
+      <DependentUpon>fmenu2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fmenu2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preview\fpr_hbarang_kend.Designer.vb">
+      <DependentUpon>fpr_hbarang_kend.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Preview\fpr_hbarang_kend.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preview\fpr_stok.Designer.vb">
+      <DependentUpon>fpr_stok.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Preview\fpr_stok.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\fsbarang.Designer.vb">
+      <DependentUpon>fsbarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\fsbarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class\Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Person.vb" />
+    <Compile Include="Report\rstok.Designer.vb">
+      <DependentUpon>rstok.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rstok.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Transaksi\fopname.Designer.vb">
+      <DependentUpon>fopname.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\fopname.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaksi\fopname2.Designer.vb">
+      <DependentUpon>fopname2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\fopname2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaksi\fopname3.Designer.vb">
+      <DependentUpon>fopname3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\fopname3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Preview\fpr_buktiopname.resx">
+      <DependentUpon>fpr_buktiopname.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview\fpr_inoutbarang.resx">
+      <DependentUpon>fpr_inoutbarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview\fpr_inoutbarang2.resx">
+      <DependentUpon>fpr_inoutbarang2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview\fpr_jmin.resx">
+      <DependentUpon>fpr_jmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview\fpr_jmin2.resx">
+      <DependentUpon>fpr_jmin2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\cr_hbarang_kendaraan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_hbarang_kendaraan1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\fbarang.resx">
+      <DependentUpon>fbarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\fbarang2.resx">
+      <DependentUpon>fbarang2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rjmlin.resx">
+      <DependentUpon>rjmlin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_buktiopname.resx">
+      <DependentUpon>r_buktiopname.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\r_inout.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>r_inout.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaksi\finput.resx">
+      <DependentUpon>finput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaksi\finput2.resx">
+      <DependentUpon>finput2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaksi\finput3.resx">
+      <DependentUpon>finput3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\fkelompok.resx">
+      <DependentUpon>fkelompok.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\fkelompok2.resx">
+      <DependentUpon>fkelompok2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmenu.resx">
+      <DependentUpon>fmenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmenu2.resx">
+      <DependentUpon>fmenu2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview\fpr_hbarang_kend.resx">
+      <DependentUpon>fpr_hbarang_kend.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview\fpr_stok.resx">
+      <DependentUpon>fpr_stok.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\fsbarang.resx">
+      <DependentUpon>fsbarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rstok.resx">
+      <DependentUpon>rstok.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaksi\fopname.resx">
+      <DependentUpon>fopname.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaksi\fopname2.resx">
+      <DependentUpon>fopname2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaksi\fopname3.resx">
+      <DependentUpon>fopname3.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Dataset\dsstok.xsc">
+      <DependentUpon>dsstok.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsstok.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsstok.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsstok.xss">
+      <DependentUpon>dsstok.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\ds_hbarang_kendaraan.xsc">
+      <DependentUpon>ds_hbarang_kendaraan.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\ds_hbarang_kendaraan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_hbarang_kendaraan1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Dataset\ds_hbarang_kendaraan.xss">
+      <DependentUpon>ds_hbarang_kendaraan.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\ds_inout.xsc">
+      <DependentUpon>ds_inout.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\ds_inout.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_inout.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Dataset\ds_inout.xss">
+      <DependentUpon>ds_inout.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\ds_jmlin_orout.xsc">
+      <DependentUpon>ds_jmlin_orout.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\ds_jmlin_orout.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_jmlin_orout.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Dataset\ds_jmlin_orout.xss">
+      <DependentUpon>ds_jmlin_orout.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\ds_opname.xsc">
+      <DependentUpon>ds_opname.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\ds_opname.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_opname.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Dataset\ds_opname.xss">
+      <DependentUpon>ds_opname.xsd</DependentUpon>
+    </None>
+    <None Include="Gudang_TemporaryKey.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="SAP.CrystalReports14.NET.2.0">
+      <Visible>False</Visible>
+      <ProductName>SAP Crystal Reports Runtime Engine for .NET Framework</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1418398968_62577.ico" />
+    <Content Include="molicule-sphalerite_unit.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_inout" targetNamespace="http://tempuri.org/ds_inout.xsd" xmlns:mstns="http://tempuri.org/ds_inout.xsd" xmlns="http://tempuri.org/ds_inout.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_inout" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ds_inout" msprop:Generator_UserDSName="ds_inout">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="kelompok" msprop:Generator_ColumnVarNameInTable="columnkelompok" msprop:Generator_ColumnPropNameInRow="kelompok" msprop:Generator_ColumnPropNameInTable="kelompokColumn" msprop:Generator_UserColumnName="kelompok" type="xs:string" minOccurs="0" />
+              <xs:element name="kd_barang" msprop:Generator_ColumnVarNameInTable="columnkd_barang" msprop:Generator_ColumnPropNameInRow="kd_barang" msprop:Generator_ColumnPropNameInTable="kd_barangColumn" msprop:Generator_UserColumnName="kd_barang" type="xs:string" minOccurs="0" />
+              <xs:element name="nama_barang" msprop:Generator_ColumnVarNameInTable="columnnama_barang" msprop:Generator_ColumnPropNameInRow="nama_barang" msprop:Generator_ColumnPropNameInTable="nama_barangColumn" msprop:Generator_UserColumnName="nama_barang" type="xs:string" minOccurs="0" />
+              <xs:element name="qtys" msprop:Generator_ColumnVarNameInTable="columnqtys" msprop:Generator_ColumnPropNameInRow="qtys" msprop:Generator_ColumnPropNameInTable="qtysColumn" msprop:Generator_UserColumnName="qtys" type="xs:double" minOccurs="0" />
+              <xs:element name="jmin" msprop:Generator_ColumnVarNameInTable="columnjmin" msprop:Generator_ColumnPropNameInRow="jmin" msprop:Generator_ColumnPropNameInTable="jminColumn" msprop:Generator_UserColumnName="jmin" type="xs:double" minOccurs="0" />
+              <xs:element name="jout" msprop:Generator_ColumnVarNameInTable="columnjout" msprop:Generator_ColumnPropNameInRow="jout" msprop:Generator_ColumnPropNameInTable="joutColumn" msprop:Generator_UserColumnName="jout" type="xs:double" minOccurs="0" />
+              <xs:element name="jopname" msprop:Generator_ColumnVarNameInTable="columnjopname" msprop:Generator_ColumnPropNameInRow="jopname" msprop:Generator_ColumnPropNameInTable="jopnameColumn" msprop:Generator_UserColumnName="jopname" type="xs:double" minOccurs="0" />
+              <xs:element name="qty1" msprop:Generator_ColumnVarNameInTable="columnqty1" msprop:Generator_ColumnPropNameInRow="qty1" msprop:Generator_ColumnPropNameInTable="qty1Column" msprop:Generator_UserColumnName="qty1" type="xs:int" minOccurs="0" />
+              <xs:element name="qty2" msprop:Generator_ColumnVarNameInTable="columnqty2" msprop:Generator_ColumnPropNameInRow="qty2" msprop:Generator_ColumnPropNameInTable="qty2Column" msprop:Generator_UserColumnName="qty2" type="xs:int" minOccurs="0" />
+              <xs:element name="qty3" msprop:Generator_ColumnVarNameInTable="columnqty3" msprop:Generator_ColumnPropNameInRow="qty3" msprop:Generator_ColumnPropNameInTable="qty3Column" msprop:Generator_UserColumnName="qty3" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

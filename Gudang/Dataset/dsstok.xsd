@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsstok" targetNamespace="http://tempuri.org/dsstok.xsd" xmlns:mstns="http://tempuri.org/dsstok.xsd" xmlns="http://tempuri.org/dsstok.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsstok" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsstok" msprop:Generator_UserDSName="dsstok">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="kd_barang" msprop:Generator_ColumnVarNameInTable="columnkd_barang" msprop:Generator_ColumnPropNameInRow="kd_barang" msprop:Generator_ColumnPropNameInTable="kd_barangColumn" msprop:Generator_UserColumnName="kd_barang" type="xs:string" minOccurs="0" />
+              <xs:element name="nama_barang" msprop:Generator_ColumnVarNameInTable="columnnama_barang" msprop:Generator_ColumnPropNameInRow="nama_barang" msprop:Generator_ColumnPropNameInTable="nama_barangColumn" msprop:Generator_UserColumnName="nama_barang" type="xs:string" minOccurs="0" />
+              <xs:element name="satuan1" msprop:Generator_ColumnVarNameInTable="columnsatuan1" msprop:Generator_ColumnPropNameInRow="satuan1" msprop:Generator_ColumnPropNameInTable="satuan1Column" msprop:Generator_UserColumnName="satuan1" type="xs:string" minOccurs="0" />
+              <xs:element name="satuan2" msprop:Generator_ColumnVarNameInTable="columnsatuan2" msprop:Generator_ColumnPropNameInRow="satuan2" msprop:Generator_ColumnPropNameInTable="satuan2Column" msprop:Generator_UserColumnName="satuan2" type="xs:string" minOccurs="0" />
+              <xs:element name="satuan3" msprop:Generator_ColumnVarNameInTable="columnsatuan3" msprop:Generator_ColumnPropNameInRow="satuan3" msprop:Generator_ColumnPropNameInTable="satuan3Column" msprop:Generator_UserColumnName="satuan3" type="xs:string" minOccurs="0" />
+              <xs:element name="jmlstok_f1" msprop:Generator_ColumnVarNameInTable="columnjmlstok_f1" msprop:Generator_ColumnPropNameInRow="jmlstok_f1" msprop:Generator_ColumnPropNameInTable="jmlstok_f1Column" msprop:Generator_UserColumnName="jmlstok_f1" type="xs:int" minOccurs="0" />
+              <xs:element name="jmlstok_f2" msprop:Generator_ColumnVarNameInTable="columnjmlstok_f2" msprop:Generator_ColumnPropNameInRow="jmlstok_f2" msprop:Generator_ColumnPropNameInTable="jmlstok_f2Column" msprop:Generator_UserColumnName="jmlstok_f2" type="xs:int" minOccurs="0" />
+              <xs:element name="jmlstok_f3" msprop:Generator_ColumnVarNameInTable="columnjmlstok_f3" msprop:Generator_ColumnPropNameInRow="jmlstok_f3" msprop:Generator_ColumnPropNameInTable="jmlstok_f3Column" msprop:Generator_UserColumnName="jmlstok_f3" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
